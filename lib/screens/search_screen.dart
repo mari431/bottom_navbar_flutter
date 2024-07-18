@@ -1,7 +1,11 @@
+import 'package:bottomnav_flutter/controllers/search_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class searchscreen extends StatelessWidget {
-  const searchscreen({super.key});
+  searchscreen({super.key});
+
+  final searchController _searchPutController = Get.put(searchController());
 
   @override
   Widget build(BuildContext context) {

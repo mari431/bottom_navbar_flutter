@@ -1,7 +1,11 @@
+import 'package:bottomnav_flutter/controllers/profile_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class profilescreen extends StatelessWidget {
-  const profilescreen({super.key});
+  profilescreen({super.key});
+
+  final profileController _profilePutController = Get.put(profileController());
 
   @override
   Widget build(BuildContext context) {
